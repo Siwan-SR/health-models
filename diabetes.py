@@ -33,10 +33,10 @@ def diabetes():
         prediction = model.predict(X)
 
         if prediction == 0:
-            st.write("User does not have Diabetes.")
+            st.write("Patient does not have Diabetes.")
 
         else:
-            st.write("User has Diabetes.")
+            st.write("Patient has Diabetes.")
 
 
 diabetes()

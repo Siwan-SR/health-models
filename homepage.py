@@ -7,6 +7,7 @@ def home():
 
     st.title("Welcome to Health Models")
     st.subheader("Find out whether you have a disease with excellent health models.")
+    st.write("Find models in GitHub page.")
 
 
 if __name__ == "__main__":

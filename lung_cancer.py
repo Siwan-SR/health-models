@@ -58,10 +58,10 @@ def lung_cancer():
         prediction = model.score(X, y)
 
         if prediction == 0:
-            st.write("User does not have lung cancer.")
+            st.write("Patient does not have lung cancer.")
 
         else:
-            st.write("User has lung cancer.")
+            st.write("Patient has lung cancer.")
 
 
 lung_cancer()
