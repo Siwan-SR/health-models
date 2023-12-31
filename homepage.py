@@ -1,6 +1,7 @@
 import streamlit as st
 from diabetes import *
 from lung_cancer import *
+from medical_cost import *
 
 def home():
     st.sidebar.success("Select a model above.")
@@ -18,3 +19,6 @@ if st.sidebar.checkbox("Diabetes", False):
 
 if st.sidebar.checkbox("Lung Cancer", False):
     lung_cancer()
+
+if st.sidebar.checkbox("Medical Cost", False):
+    medical_cost()
